@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         SpinnerAdapter spinnerAdapter = new SpinnerAdapter(list,MainActivity.this);
         spinner.setAdapter(spinnerAdapter);
 
+        //vertikal
+        spinner.setDropDownVerticalOffset(500);
+        //horizontal
+//        spinner.setDropDownHorizontalOffset(500);
+
     }
 
     private void data() {
