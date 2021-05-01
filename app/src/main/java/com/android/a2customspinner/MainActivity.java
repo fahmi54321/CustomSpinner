@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //vertikal
         spinner.setDropDownVerticalOffset(500);
         //horizontal
-//        spinner.setDropDownHorizontalOffset(500);
+        spinner.setDropDownHorizontalOffset(500);
 
     }
 
